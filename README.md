@@ -1,4 +1,4 @@
-# ecommerce Data project - 1
+# Ecommerce Data Project - 1
 Exploratory Data Analysis of e-commerce sales data using python
 ## Source
 https://www.kaggle.com/datasets/sidramazam/e-commerce-sales-performance-analysis/data
