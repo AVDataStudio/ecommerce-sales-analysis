@@ -14,6 +14,12 @@ The dataset contains historical e-commerce transaction records including:
 - Quantity
 - Sales
 - Profit
+
+## Data Cleaning
+- No missing Values
+- Converted Date/Time Format
+- No Negative Profit
+  
 ## Assumptions & Limitations
 - The dataset does not contain loss-making transactions.
 - All recorded sales are profitable.
