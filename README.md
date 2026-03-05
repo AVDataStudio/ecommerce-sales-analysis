@@ -8,7 +8,7 @@ https://www.kaggle.com/datasets/sidramazam/e-commerce-sales-performance-analysis
 - This dataset was synthetically generated and may not reflect real-world data.
   
 ## Tools Used
-- Pyhton
+- Python
 - Pandas
 - Jupyter Notebook
 - Github
