@@ -10,6 +10,8 @@ https://www.kaggle.com/datasets/sidramazam/e-commerce-sales-performance-analysis
 ## Tools Used
 - Python
 - Pandas
+- Matplotlib
+- Seaborn
 - Jupyter Notebook
 - Github
   
@@ -52,4 +54,9 @@ The dataset contains historical e-commerce transaction records including:
 - 2023 recorded the highest total sales and profit suggesting high business performance during that year.
 - Among product categories, Electronics generated highest revenue and profit followed by Accessories and Office product.
 - The top performing products by quantity were Monitor, Smart watch and Camera, indicating strong demand for electronic related items.
+
+## Data Visualizations
+- Sales by Region(Bar chart) : West region indicates strongmarket demand.
+- Sales by Month (Line chart with marker) 
+- Top 10 products by sales (Bar Chart) 
 
