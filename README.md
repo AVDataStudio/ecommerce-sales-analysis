@@ -56,7 +56,12 @@ The dataset contains historical e-commerce transaction records including:
 - The top performing products by quantity were Monitor, Smart watch and Camera, indicating strong demand for electronic related items.
 
 ## Data Visualizations
-- Sales by Region(Bar chart) : West region indicates strongmarket demand.
-- Sales by Month (Line chart with marker) 
-- Top 10 products by sales (Bar Chart) 
+- Sales by Region(Bar chart) : The West region shows the strongest market demand compared to other regions.
+- Sales by Category(Bar Chart) : Electronics generated highest sales reaching upto $5.5M while Office supplies generated the lowest salesa at approximately million.
+- Sales by Month (Line chart with marker) : Overall, May was the best performing month and february being the worst performing month. 
+- Top 10 products by sales (Bar Chart) : Camera peaked with 1.2 M aales followed by Monitors at 1.1 M sale. The least was headphones with less than a million.
+- Sales Heatmap (Month vs Year) : The Heat map reveals seasonal fluctuations in sales acroos three years. May consistently shows strong sales performance. August 2023 recorded highest sales whiile February appears to be the weakest month.
+
+## Adv EDA Data Vizualizations
+- Profit Margin by category(Bar chart) : The Overall Profit margin(17.5%) and the category-wise Profit margin values range between 17.1% to 17.8%. This indicates that profitability is fairly consistent across all product categories, suggesting a balanced pricing and cost structure for the items sold.
 
