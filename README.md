@@ -66,9 +66,15 @@ The dataset contains historical e-commerce transaction records including:
 - Profit Margin by category(Bar chart) : The Overall Profit margin(17.5%) and the category-wise Profit margin values range between 17.1% to 17.8%. This indicates that profitability is fairly consistent across all product categories, suggesting a balanced pricing and cost structure for the items sold.
 - Correlation Matrix(heatmap) : Sales and Profit showed strong positive correlation with 0.83. This indiactes, higher sales lead to higher profits. Moderate correlation of 0.66 was identified between Sales and Quantity and a 0.56 correlation between profit and quantity.
 - Scatter Plot Analysis : 
-    1.There are almost no points where high sales have very low profit compared to the rest of the dataset.Hence is called a positive correlation.
-    2.All points appear above the horizontal axis where Profit = 0. Hence, There are no loss-making transactions in this dataset.
-    3.The vertical spread of points(**Heteroscedasticity**__) shows the range of profit for the same sales value.Higher value transactions show greater profit variability.
-    4.Since many points cluster in one region of the chart, it indicates:The majority of transactions fall within a moderate sales range.
+    1. There are almost no points where high sales have very low profit compared to the rest of the dataset.Hence is called a positive correlation.
+    2. All points appear above the horizontal axis where Profit = 0. Hence, There are no loss-making transactions in this dataset.
+    3. The vertical spread of points(**Heteroscedasticity**__) shows the range of profit for the same sales value.Higher value transactions show greater profit variability.
+    4. Since many points cluster in one region of the chart, it indicates:The majority of transactions fall within a moderate sales range.
 - Regression Line:
     1. The straight line suggests the relationship between sales and profit is approximately proportional.
+- Distirbution analysis of Sales(Histogran) : Most transactions are small or moderate in value.
+- Outlier Detection (Box Plot): The profit distribution showed a strong right skew, with the majority of transactions generating moderate profit between approximately $200 and $700. The median profit is around $400, indicating a typical profit level for most transactions. However, several high-profit outliers exist, reaching up to nearly $3000, suggesting that certain transactions generate significantly higher profits than the majority.
+- Pairplot: The pairplot revealed important relationships between sales, profit, and quantity. Both sales and profit distributions are right-skewed, indicating that most transactions involve lower values while a few large transactions contribute significantly to total revenue. The scatter plots show a strong positive relationship between sales and profit, suggesting that higher revenue transactions tend to generate higher profits. Additionally, quantity demonstrates a positive relationship with both sales and profit, indicating that larger order sizes lead to higher transaction values and profitability.
+
+# Summary
+The analysis shows that the dataset maintains a consistent profit margin (~17.5%) across all product categories, indicating balanced pricing and cost structures. A strong positive correlation between sales and profit (0.83) suggests that increasing sales directly improves profitability. Moderate correlations between sales, profit, and quantity indicate that larger order sizes contribute to higher revenue and profit. Most transactions are small to moderate in value, while a few high-value transactions generate significantly higher profits. Overall, the results suggest that business performance is primarily driven by higher sales volume and larger transactions while maintaining stable profit margins.
