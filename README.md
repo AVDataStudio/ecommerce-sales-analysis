@@ -1,5 +1,9 @@
 # E-commerce Data Project - 1
-Objective : The objective of this project is to analyze e-commerce sales data to identify trends in sales performance, regional performance, product category profitability, and top-selling products. The analysis aims to generate insights that can support business decision-making and strategic planning.
+## Objective
+The objective of this project is to analyze e-commerce sales data to identify trends in sales performance, regional performance, product category profitability, and top-selling products. The analysis aims to generate insights that can support business decision-making and strategic planning.
+
+## Final Summary 
+The analysis shows that the dataset maintains a consistent profit margin (~17.5%) across all product categories, indicating balanced pricing and cost structures. A strong positive correlation between sales and profit (0.83) suggests that increasing sales directly improves profitability. Moderate correlations between sales, profit, and quantity indicate that larger order sizes contribute to higher revenue and profit. Most transactions are small to moderate in value, while a few high-value transactions generate significantly higher profits. Overall, the results suggest that business performance is primarily driven by higher sales volume and larger transactions while maintaining stable profit margins. Below are the detailed proceedings of the project.
 
 ## Source
 https://www.kaggle.com/datasets/sidramazam/e-commerce-sales-performance-analysis/data
@@ -76,5 +80,4 @@ The dataset contains historical e-commerce transaction records including:
 - Outlier Detection (Box Plot): The profit distribution showed a strong right skew, with the majority of transactions generating moderate profit between approximately $200 and $700. The median profit is around $400, indicating a typical profit level for most transactions. However, several high-profit outliers exist, reaching up to nearly $3000, suggesting that certain transactions generate significantly higher profits than the majority.
 - Pairplot: The pairplot revealed important relationships between sales, profit, and quantity. Both sales and profit distributions are right-skewed, indicating that most transactions involve lower values while a few large transactions contribute significantly to total revenue. The scatter plots show a strong positive relationship between sales and profit, suggesting that higher revenue transactions tend to generate higher profits. Additionally, quantity demonstrates a positive relationship with both sales and profit, indicating that larger order sizes lead to higher transaction values and profitability.
 
-# Summary
-The analysis shows that the dataset maintains a consistent profit margin (~17.5%) across all product categories, indicating balanced pricing and cost structures. A strong positive correlation between sales and profit (0.83) suggests that increasing sales directly improves profitability. Moderate correlations between sales, profit, and quantity indicate that larger order sizes contribute to higher revenue and profit. Most transactions are small to moderate in value, while a few high-value transactions generate significantly higher profits. Overall, the results suggest that business performance is primarily driven by higher sales volume and larger transactions while maintaining stable profit margins.
+
